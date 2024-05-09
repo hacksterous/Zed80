@@ -1,0 +1,138 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="z80/clk" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" implementation="0" trigger_pos="0" module_name="zed80" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Signal capture_enable="true">romrd</Signal>
+            <Signal capture_enable="true">z80/nRD</Signal>
+            <Signal capture_enable="true">ramwr</Signal>
+            <Bus capture_enable="true" name="address[15:0]">
+                <Signal>address[15]</Signal>
+                <Signal>address[14]</Signal>
+                <Signal>address[13]</Signal>
+                <Signal>address[12]</Signal>
+                <Signal>address[11]</Signal>
+                <Signal>address[10]</Signal>
+                <Signal>address[9]</Signal>
+                <Signal>address[8]</Signal>
+                <Signal>address[7]</Signal>
+                <Signal>address[6]</Signal>
+                <Signal>address[5]</Signal>
+                <Signal>address[4]</Signal>
+                <Signal>address[3]</Signal>
+                <Signal>address[2]</Signal>
+                <Signal>address[1]</Signal>
+                <Signal>address[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="dataFromACIA[7:0]">
+                <Signal>dataFromACIA[7]</Signal>
+                <Signal>dataFromACIA[6]</Signal>
+                <Signal>dataFromACIA[5]</Signal>
+                <Signal>dataFromACIA[4]</Signal>
+                <Signal>dataFromACIA[3]</Signal>
+                <Signal>dataFromACIA[2]</Signal>
+                <Signal>dataFromACIA[1]</Signal>
+                <Signal>dataFromACIA[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="dataFromRAM[7:0]">
+                <Signal>dataFromRAM[7]</Signal>
+                <Signal>dataFromRAM[6]</Signal>
+                <Signal>dataFromRAM[5]</Signal>
+                <Signal>dataFromRAM[4]</Signal>
+                <Signal>dataFromRAM[3]</Signal>
+                <Signal>dataFromRAM[2]</Signal>
+                <Signal>dataFromRAM[1]</Signal>
+                <Signal>dataFromRAM[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="dataFromROM[7:0]">
+                <Signal>dataFromROM[7]</Signal>
+                <Signal>dataFromROM[6]</Signal>
+                <Signal>dataFromROM[5]</Signal>
+                <Signal>dataFromROM[4]</Signal>
+                <Signal>dataFromROM[3]</Signal>
+                <Signal>dataFromROM[2]</Signal>
+                <Signal>dataFromROM[1]</Signal>
+                <Signal>dataFromROM[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">UART_RX</Signal>
+            <Signal capture_enable="true">UART_TX</Signal>
+            <Signal capture_enable="true">ramrdReg</Signal>
+            <Signal capture_enable="true">aciardReg</Signal>
+            <Signal capture_enable="true">romrdReg</Signal>
+            <Signal capture_enable="true">ramrd</Signal>
+            <Signal capture_enable="true">aciard</Signal>
+            <Signal capture_enable="true">acia/controlwr</Signal>
+            <Signal capture_enable="true">acia/tdrwr</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Bus restorename="debugClkDiv[23:0]">
+                        <Signal>debugClkDiv[23]</Signal>
+                        <Signal>debugClkDiv[22]</Signal>
+                        <Signal>debugClkDiv[21]</Signal>
+                        <Signal>debugClkDiv[20]</Signal>
+                        <Signal>debugClkDiv[19]</Signal>
+                        <Signal>debugClkDiv[18]</Signal>
+                        <Signal>debugClkDiv[17]</Signal>
+                        <Signal>debugClkDiv[16]</Signal>
+                        <Signal>debugClkDiv[15]</Signal>
+                        <Signal>debugClkDiv[14]</Signal>
+                        <Signal>debugClkDiv[13]</Signal>
+                        <Signal>debugClkDiv[12]</Signal>
+                        <Signal>debugClkDiv[11]</Signal>
+                        <Signal>debugClkDiv[10]</Signal>
+                        <Signal>debugClkDiv[9]</Signal>
+                        <Signal>debugClkDiv[8]</Signal>
+                        <Signal>debugClkDiv[7]</Signal>
+                        <Signal>debugClkDiv[6]</Signal>
+                        <Signal>debugClkDiv[5]</Signal>
+                        <Signal>debugClkDiv[4]</Signal>
+                        <Signal>debugClkDiv[3]</Signal>
+                        <Signal>debugClkDiv[2]</Signal>
+                        <Signal>debugClkDiv[1]</Signal>
+                        <Signal>debugClkDiv[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="000000000000000000000001" value1="000000000000000000000000" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1011101010111001</GAO_ID>
+</GAO_CONFIG>

@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu May  9 05:35:11 2024
+[*]
+[dumpfile] "/home/oreo/Src/FPGA-Gowin/zed80/src/sim/zed80.vcd"
+[dumpfile_mtime] "Thu May  9 05:25:49 2024"
+[dumpfile_size] 848501959
+[savefile] "/home/oreo/Src/FPGA-Gowin/zed80/src/sim/main.gtkw"
+[timestart] 614700000
+[size] 1729 600
+[pos] -1 -1
+*-24.270155 635700000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tbzed80.
+[treeopen] tbzed80.soc.
+[treeopen] tbzed80.soc.z80.
+[sst_width] 254
+[signals_width] 285
+[sst_expanded] 1
+[sst_vpaned_height] 242
+@28
+tbzed80.clk
+tbzed80.resetn
+tbzed80.soc.areset
+tbzed80.soc.resetn
+tbzed80.soc.cleanResetn
+tbzed80.soc.UART_TX
+@23
+tbzed80.soc.z80.i_tv80_core.PC[15:0]
+@28
+tbzed80.soc.acia.tdrwr
+@22
+tbzed80.soc.acia.tdr[7:0]
+@28
+tbzed80.soc.acia.controlwr
+tbzed80.soc.ramrd
+tbzed80.soc.ramwr
+[pattern_trace] 1
+[pattern_trace] 0

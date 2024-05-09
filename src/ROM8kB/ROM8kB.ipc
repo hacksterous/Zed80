@@ -1,0 +1,15 @@
+[General]
+ipc_version=4
+file=ROM8kB
+module=ROM8kB
+target_device=gw2ar18-000
+type=ram_prom
+version=1.0
+
+[Config]
+DEPTH=8192
+LANG=0
+MEM_FILE=../sim/ROM.gowin.mi
+READ=0
+RESET_MODE=true
+WIDTH=8

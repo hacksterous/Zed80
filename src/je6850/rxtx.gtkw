@@ -1,0 +1,65 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Apr 28 14:24:58 2024
+[*]
+[dumpfile] "/home/oreo/Src/FPGA/z80-soc/je6850/je6850.vcd"
+[dumpfile_mtime] "Sun Apr 28 14:21:00 2024"
+[dumpfile_size] 275006
+[savefile] "/home/oreo/Src/FPGA/z80-soc/je6850/rxtx.gtkw"
+[timestart] 0
+[size] 1920 947
+[pos] -321 -114
+*-23.094284 25028000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tbje6850.
+[treeopen] tbje6850.acia.
+[sst_width] 254
+[signals_width] 298
+[sst_expanded] 1
+[sst_vpaned_height] 264
+@28
+tbje6850.acia.uuart.UART_RX
+@22
+tbje6850.acia.uuart.rdr[7:0]
+tbje6850.acia.uuart.rxDataReg[7:0]
+@28
+tbje6850.acia.uuart.rxBitTick
+@22
+tbje6850.acia.uuart.rxClockDividerReg[19:0]
+@28
+tbje6850.acia.uuart.clk
+tbje6850.acia.uuart.rdrf
+tbje6850.acia.nIRQ
+tbje6850.acia.nextStatusIRQ
+tbje6850.acia.transmitIRQEnabled
+tbje6850.acia.nextStatusTDRE
+tbje6850.acia.nCTSReg
+tbje6850.acia.controlRIE
+tbje6850.acia.nextStatusOVR
+tbje6850.acia.nDCDReg
+tbje6850.acia.tdrwr
+tbje6850.acia.RnW
+tbje6850.acia.RS
+tbje6850.acia.E
+tbje6850.acia.rdrrd
+@22
+tbje6850.acia.DO[7:0]
+tbje6850.acia.rdr[7:0]
+@28
+tbje6850.acia.statusrd
+tbje6850.acia.statusTDRE
+tbje6850.acia.tdrwr
+tbje6850.acia.CS[2:0]
+tbje6850.e
+@24
+tbje6850.pacerCounter[19:0]
+@28
+tbje6850.acia.transmitIRQEnabled
+tbje6850.acia.controlTC[1:0]
+tbje6850.acia.statusrd
+tbje6850.acia.rdrrd
+tbje6850.acia.controlwr
+tbje6850.acia.tdrwr
+tbje6850.acia.uuart.UART_TX
+tbje6850.acia.uuart.txBitTick
+[pattern_trace] 1
+[pattern_trace] 0
