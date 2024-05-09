@@ -1,0 +1,23 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18" pn="GW2AR-LV18QN88C8/I7">gw2ar18-000</Device>
+    <FileList>
+        <File path="src/RAM56k/RAM56k.v" type="file.verilog" enable="1"/>
+        <File path="src/ROM8kB/ROM8kB.v" type="file.verilog" enable="1"/>
+        <File path="src/je6850/je6850.v" type="file.verilog" enable="1"/>
+        <File path="src/je6850/uart.v" type="file.verilog" enable="1"/>
+        <File path="src/mCLKDIV/mCLKDIV.v" type="file.verilog" enable="1"/>
+        <File path="src/tv80/tv80_alu.v" type="file.verilog" enable="1"/>
+        <File path="src/tv80/tv80_core.v" type="file.verilog" enable="1"/>
+        <File path="src/tv80/tv80_mcode.v" type="file.verilog" enable="1"/>
+        <File path="src/tv80/tv80_reg.v" type="file.verilog" enable="1"/>
+        <File path="src/tv80/tv80n.v" type="file.verilog" enable="1"/>
+        <File path="src/zed80.v" type="file.verilog" enable="1"/>
+        <File path="src/zed80.cst" type="file.cst" enable="1"/>
+        <File path="src/zed80.sdc" type="file.sdc" enable="1"/>
+        <File path="src/zed80.gao" type="file.gao" enable="1"/>
+    </FileList>
+</Project>
