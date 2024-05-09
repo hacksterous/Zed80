@@ -29,3 +29,34 @@ See [Sipeed wiki](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/example
 The core used is Guy Hutchison's [TV80](https://opencores.org/projects/tv80). The negative-edge trigerred top module `tv80n`
 is used. The only change I made was to change all flops to use synchronous reset.
 
+## ROM Code
+
+The Intel hex format [ROM code from Grant Searle's site](http://searle.x10host.com/z80/sbc_NascomBasic.zip) had to be converted to the format the Gowin synthesis understands for preloading into the 8kB ROM implementation.
+
+## Simulation
+Simulation uses the Verilog netlist output of the Gowin synthesis tool. The simulation tool is [Icarus Verilog](https://github.com/steveicarus/iverilog).
+
+The file is named `./impl/gwsynthesis/zed80.vg`.
+
+`$ export GOWINPATH="/path/to/Gowin IDE installation"`
+
+`$ cd sim`
+
+`$ make`
+
+This will compile and simulate the ROM binary. The output VCD file can be viewed on GTKWave.
+
+## Implementation
+
+Open `zed80.gprj` in Gowin IDE and run the bitstream generation flow. The default build generates a bit file usable for analysis on the logic analyzer/oscilloscope tool: `./impl/pnr/ao_0.fs`.
+Use the programmer to upload the bit file to the FPGA.
+
+## Connecting to a PC's Serial Port
+
+Connect using 8N1 at 19200 baud. Here the command
+`$ minicom -b 19200 -D /dev/ttyUSB0` is used.
+
+![screenshot-zed80-msbasic](https://github.com/hacksterous/Zed80/assets/16697108/90b0a40d-cfdb-4bdb-a2d6-029dc509fc30)
+
+![screenshot-zed80](https://github.com/hacksterous/Zed80/assets/16697108/e3801b1f-b143-483d-9958-a0bfbf1a8637)
+
