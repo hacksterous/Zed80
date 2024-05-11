@@ -26,7 +26,7 @@ See [Sipeed wiki](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/example
 
 ## Z80 Verilog Code
 
-The core used is Guy Hutchison's [TV80](https://opencores.org/projects/tv80). The negative-edge trigerred top module `tv80n`
+The core used is Guy Hutchison's [TV80](https://opencores.org/projects/tv80). The negative-edge triggerred top module `tv80n`
 is used. The only change I made was to change all flops to use synchronous reset.
 
 ## ROM Code
